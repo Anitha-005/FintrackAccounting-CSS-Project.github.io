@@ -1,0 +1,153 @@
+*,*::before,*::after{
+        margin:0;
+        font-family: "Open Sans", system-ui;
+        box-sizing: border-box;
+}
+.divition{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1em;
+}
+.header{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 100rem;
+    flex:1;
+    
+}
+.ancher_divition{
+       display:flex;
+       gap:1rem;
+       align-items: center;
+       flex:1;
+       justify-content: center;
+}
+.items{
+    text-decoration:none;
+    color:black;
+    
+}
+
+.button_divition{
+    display:flex;
+    gap:1rem;
+    flex:1;
+    justify-content: end;
+}
+.hero{
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero_title{
+      font-size: 4rem;
+      text-align: center;
+      letter-spacing: -0.45rem;
+}
+.hero_para{
+     font-size: 1.25rem;
+     text-align: center;
+     margin: 1rem 0rem;
+}
+.pricing{
+    margin-top: 10em;
+}
+.pricing_title{
+    font-size: 2.25rem;
+    letter-spacing: -0.125rem;
+}
+.pricing_description{
+    font-size: 1.25rem;
+}
+.pricing_options{
+    display: flex;
+    gap:10rem;
+}
+.pricing_box
+{
+   background-color: black;
+   color:white;
+   padding: 2rem;
+   border-radius: 20px;
+   margin-top: 2em;
+
+}
+.pricing_cost{
+    font-size: 2rem;
+}
+.pricing_plan{
+    margin:1em;
+}
+.pricing_details{
+    color:grey;
+}
+.pricing_btn{
+    background-color: white;
+    color: black;
+    border-radius: 10000px;
+    margin:2rem 0;
+    text-align: center;
+    border-radius: 100000px;
+    padding:1.5em 2.5em;
+    width:100%;
+}
+.pricing_list{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    font-size: .9rem;
+    color: grey;
+}
+/*feature section*/
+.features{
+    margin:10rem;
+}
+.feature_title{
+    text-align: center;
+    font-size: 2.25rem;
+    letter-spacing: -0.125rem;
+}
+.features_description{
+    font-size: 1.25rem;
+    text-align: center;
+     margin:1rem auto;
+}
+.feature_box{
+    text-align: center;
+    border: 2px solid grey;
+    width: 500px;
+    border-radius: 30px;
+    padding:2em;
+}
+.feature_container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:1em;
+}
+.features_title{
+    font-size: 1.2rem;
+}
+/* .featurebox_description{
+    max-width: 40ch;
+} */
+    /*utility class*/
+.btn{
+    background-color: black;
+    color:white;
+    border-radius: 5px;
+    border:none;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+.container{
+    width:90%;
+    margin-inline:auto;
+    
+}
+
+
+
